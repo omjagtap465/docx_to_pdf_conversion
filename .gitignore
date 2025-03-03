@@ -1,0 +1,37 @@
+# Ignore build artifacts
+bin/
+obj/
+out/
+
+# Ignore .NET Core dependencies
+*.db
+*.db-journal
+*.pdb
+*.pidb
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# Ignore Rider, VS Code, and Visual Studio settings
+.vscode/
+.idea/
+*.iml
+.vs/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
