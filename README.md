@@ -30,6 +30,6 @@ Setup Instructions
 
   Replace <directory-path> with the folder path 
   Example :
-  dotnet run "C:\Users\lenovo\Desktop\wordFiles\"
+  dotnet run "C:\\Users\\lenovo\\Desktop\\wordFiles\\"
 
    
