@@ -29,7 +29,6 @@ class Program
             string lastElement = folderPaths[folderPaths.Count - 1];
             folderPaths.RemoveAt(folderPaths.Count - 1);
 
-
             foreach (string file in Directory.GetFiles(lastElement))
             {
                 string filePath = Path.GetFullPath(file);
@@ -37,6 +36,7 @@ class Program
                 Console.WriteLine($"{filePath} {extension}");
                 switch (extension)
                 {
+                    //hexaware@01##
 
                     case ".docx":
                     //Docs
