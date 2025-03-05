@@ -1,6 +1,6 @@
 Before running this project, ensure you have the following installed:
 
-1. .NET Core SDK (version 6.0 or later)
+1. .NET Core SDK (version 8.0 )
 2. LibreOffice (for .docx to .pdf conversion)
 3. Spire.Pdf package
 Download Libre Office from https://www.libreoffice.org/download/download-libreoffice/
